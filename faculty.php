@@ -7,6 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -16,7 +17,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh;
+                min-height: 100vh;
             }
 
             form {
@@ -93,7 +94,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             <table>
                 <tr>
                     <td>Name</td>
-                    <td><input type="text" name="name"pattern="[A-Za-z]+"></td>
+                    <td><input type="text" name="name" pattern="[A-Za-z ]+"></td>
                 </tr>
                  <tr>
                     <td>Gender</td>
@@ -140,7 +141,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                 </tr>
                 <tr>
                     <td>Designation</td>
-                    <td><input type='text' name="des"</td>
+                    <td><input type='text' name="des" pattern="[A-Za-z ]+"</td>
                 </tr>
                 <tr>
                     <td>Date of Joining</td>
@@ -148,7 +149,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                 </tr>
                 <tr>
                     <td>Password</td>
-                    <td><input type="text" name="pass"></td>
+                    <td><input type="password" name="pass"></td>
                 </tr>
                 <tr>
                     <td><input type="submit" name="insert" value="insert">
