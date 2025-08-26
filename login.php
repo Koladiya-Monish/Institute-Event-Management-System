@@ -94,7 +94,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                 </tr>
                 <tr>
                     <td><label> password: </label></td>
-                    <td><input type="text" id="name" placeholder="Enter password" name="pass"></td>                    
+                    <td><input type="password" id="name" placeholder="Enter password" name="pass"></td>                    
                 </tr>
                 <tr>
                     <td><input type="submit" name="login" value="submit "/></td>
