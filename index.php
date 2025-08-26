@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Student Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -102,7 +103,7 @@
 
                 <tr>
                     <td>Name</td>
-                    <td><input type="text" name="name" pattern="[A-Za-z]+" required></td>
+                    <td><input type="text" name="name" pattern="[A-Za-z ]+" required></td>
                 </tr>
                 <tr>
                     <td>Gender</td>
@@ -184,7 +185,7 @@
                 </tr>
                 <tr>
                     <td>Password</td>
-                    <td><input type="text" name="pass" required></td>
+                    <td><input type="password" name="pass" required></td>
                 </tr>
                 <tr>
                     <td>Registration for Faculty</td>
