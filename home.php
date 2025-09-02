@@ -7,6 +7,7 @@ if(isset($_SESSION['user'])){
         header('Location: admin-dashboard.php');
     }
 }
+    
 ?>
 
 <!DOCTYPE html>
@@ -170,3 +171,4 @@ if(isset($_SESSION['user'])){
     </script>
 </body>
 </html>
+
